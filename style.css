@@ -1,0 +1,89 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Yeseva+One&display=swap');
+body {
+    font-family: "Poppins", serif;
+}
+body h1,p {
+    margin: 0;
+}
+.flexiable-container {
+    display: flex;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+}
+ .container {
+width: 80%;
+}
+.highlite {
+    color: #ffad5a;
+}
+/* Hedar Section css */
+.content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.content-area h1 {
+    font-family: 'Yeseva one';
+    font-size: 50px;
+    font-weight: 400;
+    border-left: 4px solid #ff5959;
+    padding-left: 15px;
+}
+.content-area p {
+    font-size: 18px;
+}
+.button a {
+    background-color: #ff5959;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.button a:hover {
+    background-color: #563b3b;
+}
+.button a:visited {
+    color: #fccd9b;
+}
+header .avatar {
+    text-align: center;
+}
+.avatar img {
+    width: 60%;
+}
+/* Mission Section css */
+.mission {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .mission h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .mission .items {
+    display: flex;
+    gap: 20px;
+  }
+  .items .item {
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .items .item img {
+    width: 150px;
+  }
+  #item1 {
+    background-color: #4f9da61a;
+  }
+  #item2 {
+    background-color: #ff8b591a;
+  }
+  #item3 {
+    background-color: #fff4d6;
+  }
