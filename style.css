@@ -87,3 +87,30 @@ header .avatar {
   #item3 {
     background-color: #fff4d6;
   }
+  /* Develop */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+}
+.left-content h2 {
+font-family: "Poppins", serif;
+font-size: 36px;
+font-weight: 700;
+padding-left: 15px;
+}
+.left-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+ .avatar {
+  text-align: center;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
