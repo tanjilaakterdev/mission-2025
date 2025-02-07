@@ -1,4 +1,5 @@
 /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Yeseva+One&display=swap');
 body {
   font-family: 'Poppins', serif;
@@ -16,6 +17,8 @@ p {
 }
 .container {
   width: 80%;
+  display: flex;
+  margin: 5% auto 0 auto;
 }
 .highlite {
   color: #ffad5a;
@@ -24,7 +27,7 @@ p {
   gap: 60px;
 }
 .padding-y {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 /* Header Seciton CSS */
 .content-area {
@@ -56,7 +59,7 @@ header .avatar {
   text-align: center;
 }
 .avatar img {
-  width: 60%;
+  width: 70%;
 }
 
 /* Mission Section CSS */
@@ -125,6 +128,9 @@ header .avatar {
   display: inline-block;
   border-radius: 5px;
 }
+.developer a:hover {
+  background-color: #9f2727;
+}
 .developer .box-right {
   display: flex;
   flex-direction: column;
@@ -138,6 +144,9 @@ header .avatar {
 .Community img {
   width: 100%;
 }
+.Community .third-half {
+  width: 70%;
+}
 .Community h1 {
   font-size: 36px;
 }
@@ -148,6 +157,9 @@ header .avatar {
   padding: 10px 40px;
   display: inline-block;
   border-radius: 5px;
+}
+.Community a:hover {
+  background-color: #b43030;
 }
 .Community a:hover {
   background-color: #aa3636;
@@ -164,3 +176,55 @@ header .avatar {
   justify-content: center;
   gap: 10px;
 }
+/* Application */
+.Application img {
+  width: 100%;
+}
+  .Application .third-half {
+    width: 70%;
+  }
+  .Application h1 {
+    font-size: 36px;
+  }
+  .Application a {
+    background-color: #ff5959;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .Application a:hover {
+    background-color: #aa3636;
+  }
+  .Application .box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  span .highlite {
+    color: #ffad5a;
+  }
+ .big {
+  text-align: center;
+ }
+ /* Footer-Section */
+ footer {
+ text-align: center;
+ background-color: black;
+ color: white;
+ padding: 20px 0;
+ font-size: 20px;
+}
+.fight span {
+  color: #ff5959;;
+}
+.fight h3 {
+  font-family: "Lobster", serif;
+  font-size: 36px;
+}
+.fight p {
+  font-size: 14px;
+}
+
