@@ -1,62 +1,65 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Yeseva+One&display=swap');
 body {
-    font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
 }
-body h1,p {
-    margin: 0;
+body h1,
+p {
+  margin: 0;
 }
 .flexiable-container {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 .half-width {
-    width: 50%;
+  width: 50%;
 }
- .container {
-width: 80%;
+.container {
+  width: 80%;
 }
 .highlite {
-    color: #ffad5a;
+  color: #ffad5a;
 }
-/* Hedar Section css */
+.gap {
+  gap: 60px;
+}
+.padding-y {
+  padding: 100px 0;
+}
+/* Header Seciton CSS */
 .content-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
 }
 .content-area h1 {
-    font-family: 'Yeseva one';
-    font-size: 50px;
-    font-weight: 400;
-    border-left: 4px solid #ff5959;
-    padding-left: 15px;
+  font-family: 'Yeseva one';
+  font-size: 60px;
+  font-weight: 400;
+  border-left: 4px solid #ff5959;
+  padding-left: 15px;
 }
+
 .content-area p {
-    font-size: 18px;
+  font-size: 18px;
 }
 .button a {
-    background-color: #ff5959;
+  background-color: #ff5959;
   display: inline-block;
   padding: 10px 25px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
-.button a:hover {
-    background-color: #563b3b;
-}
-.button a:visited {
-    color: #fccd9b;
-}
 header .avatar {
-    text-align: center;
+  text-align: center;
 }
 .avatar img {
-    width: 60%;
+  width: 60%;
 }
-/* Mission Section css */
+
+/* Mission Section CSS */
 .mission {
   display: flex;
   flex-direction: column;
@@ -88,25 +91,76 @@ header .avatar {
 #item3 {
   background-color: #fff4d6;
 }
-  /* Develop */
-  .reverse {
-    flex-direction: row-reverse;
-  }
-.left-content {
+#item1:hover {
+  background-color: #4f9da672;
+}
+#item2:hover {
+  background-color: #a3664c1a;
+}
+#item3:hover {
+  background-color: #d6bb72;
+}
+/* Develop without limites */
+.developer {
+  background-image: url(images/shape-1.png),
+    url(images/Group\ 57403.svg);
+  background-size: 15%, 8%;
+  background-repeat: no-repeat;
+  background-position: left center, left bottom;
+}
+.developer img {
+  width: 100%;
+}
+.developer .third-half {
+  width: 70%;
+}
+.developer h1 {
+  font-size: 36px;
+}
+.developer a {
+  background-color: #ff5959;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.developer .box-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 5px;
+  gap: 10px;
 }
-.left-content h2 {
-font-family: "Poppins", serif;
-font-size: 36px;
-font-weight: 700;
-padding-left: 15px;
+/* community */
+.reverse {
+ flex-direction: row-reverse;
 }
-.left-content p {
-  font-size: 18px;
-  line-height: 30px;
+.Community img {
+  width: 100%;
 }
- 
-
+.Community h1 {
+  font-size: 36px;
+}
+.Community a {
+  background-color: #ff5959;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.Community a:hover {
+  background-color: #aa3636;
+}
+.Community {
+  background-image: url(images/shape-1.png);
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.Community .box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
