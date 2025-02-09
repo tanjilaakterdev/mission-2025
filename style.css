@@ -38,7 +38,7 @@ p {
 }
 .content-area h1 {
   font-family: 'Yeseva one';
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 400;
   border-left: 4px solid #ff5959;
   padding-left: 15px;
@@ -98,7 +98,7 @@ header .avatar {
   background-color: #4f9da672;
 }
 #item2:hover {
-  background-color: #a3664c1a;
+  background-color: #38180a94;
 }
 #item3:hover {
   background-color: #d6bb72;
